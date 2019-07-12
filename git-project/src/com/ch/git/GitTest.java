@@ -1,11 +1,14 @@
 package com.ch.git;
 
+/**
+ * dev
+ */
 public class GitTest {
 
     private static String str= null;
 
-    public static void main(String[] args) {
-        System.out.println("Hello Git Project");
+        public static void main(String[] args) {
+            System.out.println("Hello Git Project");
         System.out.println("Hello Git Project");
         System.out.println("Hello Git Project");
         System.out.println("Hello Git Project");
