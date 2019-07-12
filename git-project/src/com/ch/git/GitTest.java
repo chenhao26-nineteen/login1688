@@ -1,8 +1,5 @@
 package com.ch.git;
 
-/**
- * master分支
- */
 public class GitTest {
 
     private static String str= null;
