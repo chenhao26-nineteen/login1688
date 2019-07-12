@@ -12,8 +12,10 @@ public class GitTest {
         System.out.println("Hello Git Project");
         System.out.println("Hello Git Project");
         System.out.println("Hello Git Project");
+        //Hello Girl
     }
     static {
         str = new String("hello");
+        System.out.println(str.toString());
     }
 }
