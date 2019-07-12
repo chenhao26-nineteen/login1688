@@ -13,7 +13,7 @@ public class GitTest {
         System.out.println("Hello Git Project");
         System.out.println("Hello Git Project");
     }
-/*    static {
+    static {
         str = new String("hello");
-    }*/
+    }
 }
