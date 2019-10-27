@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart Page</title>
+</head>
+<body>
+    <h1>欢迎来到购物车页面！！！</h1>
+    <span>
+        <a th:if="${session.loginUser == null}" href="http://www.codeshop.com:9000/view/login?target=http://www.cart.codeshop.com:9020/view/index">登录</a>
+        <!--相反的条件-->
+        <a th:unless ="${session.loginUser == null}" href="http://www.cart.codeshop.com:9020/cart/doLoginout">退出</a>
+    </span>
+    <p th:unless ="${session.loginUser == null}">
+       <span style="color: aquamarine" th:text="${session.loginUser.nickname}"></span>，欢迎您
+    </p>
+</body>
+</html>
