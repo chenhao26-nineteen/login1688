@@ -34,6 +34,8 @@ public class ViewController {
             }
         }
         session.removeAttribute("loginUser");
+
+        System.out.println();
         return "index";
     }
 }
