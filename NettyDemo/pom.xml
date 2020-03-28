@@ -12,7 +12,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.32.Final</version>
+            <version>4.1.42.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
         <!--导入protobuf依赖，实现网络间数据传输的编码和解码-->
